@@ -6,8 +6,4 @@ lag = float(input('Digite a largura da sua parede: '))
 alt = float(input('Digite a altura da sua parede: '))
 area = lag * alt
 tinta = area/2
-print('Para pintar o espaço informado medindo {0}m de altura por {1}m de largura, você irá precisar de {2}L de tinta.'.format(lag, alt, tinta))
-
-# Aplique desconto de 5% em um produto?
-
-# Leia o salário atual e mostre o aumento com 15% de aumento?
+print('Para pintar o espaço informado medindo {0}m de altura por {1}m de largura,\nvocê irá precisar de {2}L de tinta.'.format(lag, alt, tinta))
