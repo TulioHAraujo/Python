@@ -3,20 +3,17 @@ Ex017
 Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo, calcule
 e mostre o comprimento da hipotenusa.
 
-Ex018
-Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+Lembrando que para usar uma biblioteca por mais que você não domine os conceitos matemáticos é necessário
+minimamente entender como usa-lá, por exemplo, para usar a função hypot que calcula o valor da hipotenusa,
+precisamos entender que para calcular o valor da hipotenusa precisamos de outros dois valores
+e precisamos solicitar ao usuário o input de maneira correta, informando o tipo primitivo.
 
-Ex019
-Um professor quer sortearum dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o
-nome deles e escrevendo o nome do escolhido.
-import random.
-
-Ex020
-O professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que
-leia o nome dos quatro alunos e mostre a ordem sorteada.
-Esse é um pouquinho mais dificil.
-
-Ex021
-Faça um programa que abra e reproduza um áudio de um arquivo mp3.
-Difícil.
+resposta sem usar biblioteca/modulo
+hip = (co ** 2 + ca ** 2) ** (1/2)
 """
+from math import hypot
+
+co = float(input('Digite o valor do cateto oposto: '))
+ca = float(input('Digite o valor do cateto adjacente: '))
+hip = hypot(co, ca)
+print('O valor da hipotenusa é {:.2f}'.format(hip))
