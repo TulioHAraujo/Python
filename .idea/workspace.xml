@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc112f3-f431-4159-88e1-3bd1004fb1ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex018.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex019.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex020.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex017.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex017.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex018.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex018.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +46,12 @@
     "Python.ex014.executor": "Run",
     "Python.ex015.executor": "Run",
     "Python.ex017.executor": "Run",
+    "Python.ex018.executor": "Run",
+    "Python.ex019.executor": "Run",
+    "Python.ex020.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -81,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
       </set>
     </attachedChunks>
   </component>

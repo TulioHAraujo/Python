@@ -2,17 +2,15 @@
 Ex018
 Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
 
-Ex019
-Um professor quer sortearum dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o
-nome deles e escrevendo o nome do escolhido.
-import random.
-
-Ex020
-O professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que
-leia o nome dos quatro alunos e mostre a ordem sorteada.
-Esse é um pouquinho mais dificil.
-
-Ex021
-Faça um programa que abra e reproduza um áudio de um arquivo mp3.
-Difícil.
+Exercício complexo, eu consegui fazer até certo ponto, porém não sabia que deveria aninhar as funções com radians.
 """
+
+from math import radians, sin, cos, tan
+
+ang = float(input('Digite o valor do ângulo que deseja: '))
+sen = sin(radians(ang))
+cos = cos(radians(ang))
+tan = tan(radians(ang))
+print('O seno de {} é {:.2f}.'.format(ang, sen))
+print('O cosseno de {} é {:.2f}.'.format(ang, cos))
+print('A tangente de {} é {:.2f}.'.format(ang, tan))
