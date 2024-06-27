@@ -9,15 +9,32 @@ Faça um programa que abra e reproduza um áudio de um arquivo mp3.
 Difícil.
 """
 
-from random import choice
+from random import sample
 
 a1 = str(input('Primeiro aluno: '))
 a2 = str(input('Segundo aluno: '))
 a3 = str(input('Terceiro aluno: '))
 a4 = str(input('Quarto aluno: '))
 
-lista = [a1, a2, a3, a4]
+sorteio = sample([a1,a2,a3, a4], counts=[1, 1, 1, 1], k=4)
 
-sorteio = choice(lista)
-res = sorted(sorteio)
-print(res)
+print('A ordem se apresentação será: ')
+print(sorteio)
+
+"""
+Resolução do exercício (eu não utilizei shuffle porque não entendi a sintaxe)
+Mas consegui chegar no mesmo resultado kkkk
+
+from random import shuffle
+
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+
+lista = [n1. n2, n3, n4]
+shuffle(lista)
+
+print('A ordem de apresentação será: ')
+print(lista)
+"""
